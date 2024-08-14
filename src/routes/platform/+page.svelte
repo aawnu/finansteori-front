@@ -1,11 +1,5 @@
-<script>
-	/**
-	 * @param pct {number}
-	 * @param min {number}
-	 * @param symbol {string}
-	 * @returns {string}
-	 */
-	const FormatExchange = (pct, min, symbol) => {
+<script lang="ts">
+	const FormatExchange = (pct: number, min: number, symbol: string): string => {
 		const pctS = pct
 			.toFixed(2)
 			.replace('.', ',')
@@ -27,50 +21,52 @@
 	/>
 </svelte:head>
 
-<div class="container mx-auto max-w-screen-md">
-	<div class="p-4">
-		<h1 class="mb-4 text-4xl font-black leading-relaxed">Aktiemægler platforme i danmark</h1>
-		<p class="my-2 leading-relaxed">
-			I danmark har vi ikke nogen lovgivning der forbyder dig at bruge en udlandsk aktiemægler, men
-			det kommer med en hvis kompleksitet, da du så selv skal opgøre dine handler og stå inde for
-			eventuelle gevinster og tab.
-		</p>
-		<p class="my-2 leading-relaxed">
-			Ved at bruge en aktiemægler allerede etableret på det danske markedet, forsimpler du din
-			process, da de vil sørge for at indrapportere din oplysninger til Skat direkte. Her bliver din
-			opgave væsentligt nemmere, da du blot skal tjekke op på korrektheden heraf.
-		</p>
-		<p class="my-2 leading-relaxed">
-			I danmark er vores mest anvendte aktiemæglere Saxo Bank og Nordnet, men de fleste større
-			banker tilbyder også aktiehandel internt for deres kunder. Som udgangspunkt forholder vi os
-			til disse 2 mæglere, da deres primære forretning er børshandel.
-		</p>
+<div class="container mx-auto max-w-screen-md pb-6">
+	<h1 class="font-lora mb-2 text-4xl font-black leading-relaxed">
+		Aktiemægler platforme i danmark
+	</h1>
+	<p class="my-2 leading-relaxed">
+		I danmark har vi ikke nogen lovgivning der forbyder dig at bruge en udlandsk aktiemægler, men
+		det kommer med en hvis kompleksitet, da du så selv skal opgøre dine handler og stå inde for
+		eventuelle gevinster og tab.
+	</p>
+	<p class="my-2 leading-relaxed">
+		Ved at bruge en aktiemægler allerede etableret på det danske markedet, forsimpler du din
+		process, da de vil sørge for at indrapportere din oplysninger til Skat direkte. Her bliver din
+		opgave væsentligt nemmere, da du blot skal tjekke op på korrektheden heraf.
+	</p>
+	<p class="my-2 leading-relaxed">
+		I danmark er vores mest anvendte aktiemæglere Saxo Bank og Nordnet, men de fleste større banker
+		tilbyder også aktiehandel internt for deres kunder. Som udgangspunkt forholder vi os til disse 2
+		mæglere, da deres primære forretning er børshandel.
+	</p>
 
-		<h2 class="mb-4 mt-8 text-2xl font-bold leading-relaxed">Handelsgebyr (Standardpriser)</h2>
-		<p class="my-2 leading-relaxed">
-			Nedenfor ser du de respektive priser fra hver platform, som de står skrevet den 17 maj 2024.
-			Formatet er opstilt som "Kurtage &gt; Mindstepris &ge; Udligning". Det vil sige, at hvis
-			kurtagen er 0,05% og mindsteprisen er 5 kroner, så vil udligningen være 5/0,0005= 10.000
-			kroner, altså du skal investere minimum 10.000 kroner for at opnå mindstekurtagen.
-		</p>
-		<p class="my-2 leading-relaxed">
-			Der er en enkelt aktie, som ikke følger dette format. Saxo Bank har en prisgivning på TSX
-			Venture Exchange hvor hver aktie har en fast pris, mens hver handel har en mindste og en
-			højeste kurtage per handel.
-		</p>
-	</div>
+	<h2 class="font-lora mb-2 mt-6 text-2xl font-bold leading-relaxed">
+		Handelsgebyr (Standardpriser)
+	</h2>
+	<p class="my-2 leading-relaxed">
+		Nedenfor ser du de respektive priser fra hver platform, som de står skrevet den 17 maj 2024.
+		Formatet er opstilt som "Kurtage &gt; Mindstepris &ge; Udligning". Det vil sige, at hvis
+		kurtagen er 0,05% og mindsteprisen er 5 kroner, så vil udligningen være 5/0,0005= 10.000 kroner,
+		altså du skal investere minimum 10.000 kroner for at opnå mindstekurtagen.
+	</p>
+	<p class="my-2 leading-relaxed">
+		Der er en enkelt aktie, som ikke følger dette format. Saxo Bank har en prisgivning på TSX
+		Venture Exchange hvor hver aktie har en fast pris, mens hver handel har en mindste og en højeste
+		kurtage per handel.
+	</p>
 </div>
 <div class="bg-slate-200 px-4 py-8">
 	<div class="container mx-auto max-w-screen-lg">
 		<table class="w-full table-fixed">
 			<tr>
 				<th></th>
-				<th class="text-center text-xl">SAXO BANK</th>
-				<th class="text-center text-xl">NORDNET</th>
+				<th class="font-lora text-center text-2xl">SAXO BANK</th>
+				<th class="font-lora text-center text-2xl">NORDNET</th>
 			</tr>
 			<!--- NORDIC -->
 			<tr>
-				<th class="pb-2 pt-4 text-left font-bold">SKANDINAVIEN</th>
+				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">SKANDINAVIEN</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -96,7 +92,7 @@
 			</tr>
 			<!--- USA / Canada -->
 			<tr>
-				<th class="pb-2 pt-4 text-left font-bold">AMERIKA / CANADA</th>
+				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">AMERIKA / CANADA</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -122,7 +118,7 @@
 			</tr>
 			<!--- EUROPA -->
 			<tr>
-				<th class="pb-2 pt-4 text-left font-bold">EUROPA</th>
+				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">EUROPA</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -148,7 +144,7 @@
 			</tr>
 			<!--- ASIA -->
 			<tr>
-				<th class="pb-2 pt-4 text-left font-bold">ASIEN</th>
+				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">ASIEN</th>
 				<td></td>
 				<td></td>
 			</tr>

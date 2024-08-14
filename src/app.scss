@@ -1,0 +1,156 @@
+@import '@fontsource-variable/lora';
+@import '@fontsource-variable/public-sans';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	:root {
+		--background: 0 0% 100%;
+		--foreground: 0 0% 3.9%;
+
+		--muted: 0 0% 96.1%;
+		--muted-foreground: 0 0% 45.1%;
+
+		--popover: 0 0% 100%;
+		--popover-foreground: 0 0% 3.9%;
+
+		--card: 0 0% 100%;
+		--card-foreground: 0 0% 3.9%;
+
+		--border: 0 0% 89.8%;
+		--input: 0 0% 89.8%;
+
+		--primary: 0 0% 9%;
+		--primary-foreground: 0 0% 98%;
+
+		--secondary: 0 0% 96.1%;
+		--secondary-foreground: 0 0% 9%;
+
+		--accent: 0 0% 96.1%;
+		--accent-foreground: 0 0% 9%;
+
+		--destructive: 0 72.2% 50.6%;
+		--destructive-foreground: 0 0% 98%;
+
+		--ring: 0 0% 3.9%;
+
+		--radius: 0.5rem;
+	}
+}
+
+@layer base {
+	* {
+		@apply border-border;
+	}
+	body {
+		@apply bg-background font-publicsans text-foreground;
+	}
+	.align-icon {
+		@apply align-[-.15em] leading-none;
+	}
+}
+
+@layer components {
+	.wp-article-outer {
+		@apply py-12;
+
+		.wp-article {
+			@apply container max-w-screen-md py-4;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			@apply mb-[0.25em] font-lora font-black;
+		}
+
+		h2,
+		h3,
+		h4,
+		h5,
+		h6 {
+			@apply mt-[1em];
+		}
+
+		h1 {
+			@apply text-center text-5xl leading-snug;
+		}
+
+		h2 {
+			@apply text-4xl leading-snug;
+		}
+
+		h3 {
+			@apply text-3xl leading-snug;
+		}
+
+		h4 {
+			@apply text-2xl leading-snug;
+		}
+
+		h5 {
+			@apply text-xl leading-snug;
+		}
+
+		h6 {
+			@apply text-lg leading-snug;
+		}
+
+		p {
+			@apply my-2 leading-relaxed;
+		}
+
+		ul {
+			@apply list-disc;
+		}
+
+		ol {
+			@apply list-decimal;
+		}
+
+		ul,
+		ol {
+			@apply space-y-1 pl-6;
+		}
+
+		table {
+			@apply my-4 w-full table-fixed;
+			tr {
+				td {
+					@apply p-2;
+				}
+				td.has-text-align-right {
+					@apply text-right;
+				}
+				td.has-text-align-center {
+					@apply text-center;
+				}
+			}
+		}
+
+		figure.is-style-stripes {
+			tr:nth-child(even) {
+				@apply bg-slate-100;
+			}
+		}
+
+		blockquote {
+			@apply border-l-primary-300 my-4 rounded-lg border-l-2 bg-slate-50 p-2 pl-4;
+			p {
+				@apply text-xl italic;
+			}
+			cite {
+				@apply text-primary-300 text-sm;
+			}
+		}
+
+		a {
+			@apply hover:text-primary-600 font-bold text-primary;
+		}
+	}
+}
