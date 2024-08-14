@@ -1,14 +1,14 @@
-<script>
-	let className = undefined
-	let main = undefined
-	let sub = undefined
+<script lang="ts">
+	let className: undefined | string = undefined;
+	let main: undefined | string = undefined;
+	let sub: undefined | string = undefined;
 
-	export let type = undefined
-	export { className as class }
+	export let original: boolean = false;
+	export { className as class };
 
-	if (type == 'logo') {
-		main = 'fill-black'
-		sub = 'fill-finansteori-primary'
+	if (original) {
+		main = 'fill-finansteori-800';
+		sub = 'fill-finansteori';
 	}
 </script>
 
