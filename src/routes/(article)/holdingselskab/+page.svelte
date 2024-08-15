@@ -23,7 +23,7 @@
 	<p>
 		I den her artikel tager vi et kig på at investerer igennem et selskab. Hvis du vil vide mere om
 		aktieinvestering generelt, så <a
-			href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+			href="/aktieinvestering"
 			class="rank-math-link">læs om aktieinvestering her!</a
 		> Vores eneste mål med selskabet er at investerer i værdipapirer, og ikke at producere eller sælge
 		produkter. Derfor giver det mening at stifte et holdingselskab struktureret som et Anpartsselskab
@@ -169,7 +169,7 @@
 		<strong>I 2019/2020 er selskabsskatten på 22%</strong>, men der har været snak om at sænke den
 		til 19% på baggrund af Covid-19. Hvis du har investeret under loftet på en aktiesparekonto, så
 		kan
-		<a href="https://finansteori.dk/borshandel/start-med-en-aktiesparekonto" class="rank-math-link"
+		<a href="/aktiesparekonto" class="rank-math-link"
 			>det være en skattemæssig fordel af udfylde aktiesparekonto</a
 		> privat før man omdanner til selskab.
 	</p>
@@ -370,7 +370,7 @@
 		beskattes af pengene. Du betaler ikke skatten ved realisering af afkastet, men ved
 		årsopgørelsen. Du kan derved geninvesterer 100% af pengene, hvis du senere kan skaffe kapitalen
 		til at betale skat. Det kan f.eks. være en <a
-			href="https://finansteori.dk/borshandel/udbytte-investering-sadan-kommer-du-igang"
+			href="/udbytteinvestering"
 			class="rank-math-link">taktik ved udbytteinvestering</a
 		>.
 	</p>

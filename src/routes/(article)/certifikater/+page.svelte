@@ -19,7 +19,7 @@
 
 	<!-- wp:paragraph -->
 	<p>
-		<a href="https://finansteori.dk/borshandel/hvad-er-shorting-af-aktier" class="rank-math-link"
+		<a href="/shorting" class="rank-math-link"
 			>Det kan være risikabelt at short aktier</a
 		>, da man kan risikerer at miste mange penge. Der er ikke nogen begrænsning for hvor meget
 		aktier kan stige i værdi, og dertil ikke nogen aktuel grænse for hvor dyrt en shorting position

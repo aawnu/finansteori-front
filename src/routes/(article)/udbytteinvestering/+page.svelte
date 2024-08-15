@@ -13,7 +13,7 @@
 	<!-- /wp:more -->
 	
 	<!-- wp:paragraph -->
-	<p>I den her artikel er der ikke meget information om aktieinvestering generelt. Hvis du skal have en genopfriskning eller introduktion, så <a href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020" class="rank-math-link">læs om aktieinvestering her!</a></p>
+	<p>I den her artikel er der ikke meget information om aktieinvestering generelt. Hvis du skal have en genopfriskning eller introduktion, så <a href="/aktieinvestering" class="rank-math-link">læs om aktieinvestering her!</a></p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:heading -->
@@ -155,7 +155,7 @@
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph -->
-	<p>Når du modtager udbytter på en <a href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020">normal investerings konto</a>, vil du blive beskattet 27/42% i forhold til progressionsgrænsen. I 2020 er grænsen på 55.300 kroner, hvor du betaler 27% af udbytter og afkast herunder, og derefter 42% af resten. Vil derfor anbefale at du altid modregner 42% skat, hvis din totale aktieportefølje er større end 100.000 kroner i værdi.</p>
+	<p>Når du modtager udbytter på en <a href="/aktieinvestering">normal investerings konto</a>, vil du blive beskattet 27/42% i forhold til progressionsgrænsen. I 2020 er grænsen på 55.300 kroner, hvor du betaler 27% af udbytter og afkast herunder, og derefter 42% af resten. Vil derfor anbefale at du altid modregner 42% skat, hvis din totale aktieportefølje er større end 100.000 kroner i værdi.</p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:heading {"level":3} -->
@@ -163,7 +163,7 @@
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph -->
-	<p><a href="https://finansteori.dk/borshandel/start-med-en-aktiesparekonto">Aktiesparekontoen er fast lagerbeskattet med 17%</a>. Lagerbeskatning sker årligt, og du skal derfor ikke betale skat når udbyttet udbetales til din konto. Vær dog opmærksom på at have nok penge sat til side, når skatten skal betales ved årsopgørelsen, så du ikke ender med overtræk på kontoen.</p>
+	<p><a href="/aktiesparekonto">Aktiesparekontoen er fast lagerbeskattet med 17%</a>. Lagerbeskatning sker årligt, og du skal derfor ikke betale skat når udbyttet udbetales til din konto. Vær dog opmærksom på at have nok penge sat til side, når skatten skal betales ved årsopgørelsen, så du ikke ender med overtræk på kontoen.</p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:heading {"level":3} -->
@@ -171,7 +171,7 @@
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph -->
-	<p>Dine beskatnings procent er her afgjort af om du ejer investeringsbeviserne igennem normal investerings- eller aktiesparekonto. Dog er både <a href="https://finansteori.dk/borshandel/invester-gennem-investeringsforeninger">foreninger og ETF'er</a> lagerbeskattet, ligesom aktiesparekontoen er generelt. Du vil derfor ikke nødvendigvis blive beskattet ved udbetalingen af udbyttet, men ved årsopgørelsen, også selv om du investerer igennem en normal investerings konto.</p>
+	<p>Dine beskatnings procent er her afgjort af om du ejer investeringsbeviserne igennem normal investerings- eller aktiesparekonto. Dog er både <a href="/investeringsforeninger">foreninger og ETF'er</a> lagerbeskattet, ligesom aktiesparekontoen er generelt. Du vil derfor ikke nødvendigvis blive beskattet ved udbetalingen af udbyttet, men ved årsopgørelsen, også selv om du investerer igennem en normal investerings konto.</p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:heading -->
@@ -276,7 +276,7 @@
 	<!-- /wp:heading -->
 	
 	<!-- wp:paragraph -->
-	<p>Udbytteinvestering er interessant for mange, da det kan give dem muligheden for <a href="https://finansteori.dk/borshandel/fire-tidlig-pension-okonomisk-uafhaengig" class="rank-math-link">at være mindre afhængig af et fast arbejde</a>. Nogle går så meget op i det, at de sammentid minimerer deres levestandard og udgifter. FIRE går ud på at man skaber stor nok passiv indkomst, til at man kan dække dele eller hele sin levestil.</p>
+	<p>Udbytteinvestering er interessant for mange, da det kan give dem muligheden for <a href="/fire" class="rank-math-link">at være mindre afhængig af et fast arbejde</a>. Nogle går så meget op i det, at de sammentid minimerer deres levestandard og udgifter. FIRE går ud på at man skaber stor nok passiv indkomst, til at man kan dække dele eller hele sin levestil.</p>
 	<!-- /wp:paragraph -->
 	
 	<!-- wp:paragraph -->

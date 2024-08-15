@@ -130,7 +130,7 @@
 	<!-- wp:paragraph -->
 	<p>
 		Hvis du <a
-			href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+			href="/aktieinvestering"
 			class="rank-math-link">tjekker dine investeringer</a
 		> med korte intervaller (dagligt eller ugentligt), så vil candlestick grafen give dig et mere balaneret
 		overblik. Kigger du en gang om måneden eller i kvartalet, så har det ikke den store forskel for dig.

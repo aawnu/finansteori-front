@@ -101,7 +101,7 @@
 	<!-- wp:paragraph -->
 	<p>
 		Jeg har skrevet en artikel omkring <a
-			href="https://finansteori.dk/borshandel/udbytte-investering-sadan-kommer-du-igang"
+			href="/udbytteinvestering"
 			class="rank-math-link">at investerer i udbytter</a
 		>, altså at købe dele af virksomheder, som udbetaler en del af årets resultat til ejerne. Det er
 		også en god måde at kan opnå delvis eller fuld finansiering af dine udgifter.
@@ -211,7 +211,7 @@
 	<!-- wp:paragraph -->
 	<p>
 		Hvis du vil vide mere om at investerer gennem et selskab, kan jeg anbefale at læse <a
-			href="https://finansteori.dk/borshandel/invester-gennem-holdingselskab"
+			href="/holdingselskab"
 			class="rank-math-link">artiklen om at investerer gennem holding selskab her!</a
 		>
 	</p>
@@ -243,19 +243,19 @@
 	<ul>
 		<li>
 			<a
-				href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+				href="/aktieinvestering"
 				class="rank-math-link">Kom godt igang med at investerer i aktier!</a
 			>
 		</li>
 		<li>
 			<a
-				href="https://finansteori.dk/borshandel/start-med-en-aktiesparekonto"
+				href="/aktiesparekonto"
 				class="rank-math-link">Invester i aktier med en aktiesparekonto og spar penge!</a
 			>
 		</li>
 		<li>
 			<a
-				href="https://finansteori.dk/borshandel/aktieinvestering-nordnet-eller-saxo-bank"
+				href="/platform"
 				class="rank-math-link">Hvor er det bedste af investerer, Nordnet eller Saxobank?</a
 			>
 		</li>

@@ -22,11 +22,8 @@
 	<!-- wp:paragraph -->
 	<p>
 		I den her artikel kigger vi primært på at udvikle et sundt budget, som indeholder indtægter og
-		udgifter i forhold til "betal dig selv først" princippet. Det er meget mere detaljeret end den
-		tidligere <a
-			href="https://finansteori.dk/borshandel/manedsbudget-hvor-meget-investering"
-			class="rank-math-link">artikel om hvor meget du skal investere</a
-		>. Hvis du kun vil finde dit rådighedsbeløb til at investere, kan du starte med den artikel.
+		udgifter i forhold til "betal dig selv først" princippet. Hvis du kun vil finde dit
+		rådighedsbeløb til at investere, kan du starte med den artikel.
 	</p>
 	<!-- /wp:paragraph -->
 
@@ -222,9 +219,7 @@
 		Det 5 element ligger i konto-opbygningen. Hvis du er meget disciplineret, kan du opnå det med
 		mindre kontoer, men hvis du først starter ud, så skal vi have 4 bank kontoer og 1 investerings
 		konto. Anbefaler at du har din investeringskonto ved Saxo Bank eller Nordnet, inden du vælger
-		kan du læse artiklen <a
-			class="rank-math-link"
-			href="https://finansteori.dk/borshandel/nordnet-vs-saxo-bank"
+		kan du læse artiklen <a class="rank-math-link" href="/platform"
 			>Nordnet vs Saxo Bank, hvem er billigst?</a
 		>
 	</p>

@@ -154,10 +154,7 @@
 
 	<p>
 		I danmark bruger man primært Nordnet og Saxobank til at investerer gennem, da de oplyser dine
-		handler til skat. <a
-			href="https://finansteori.dk/borshandel/aktieinvestering-nordnet-eller-saxo-bank"
-			>Læs mere om forskellene på Nordnet og Saxo Bank her!</a
-		>
+		handler til skat. <a href="/platform">Læs mere om forskellene på Nordnet og Saxo Bank her!</a>
 	</p>
 
 	<p>
@@ -340,8 +337,7 @@
 	</p>
 
 	<p>
-		Hvis du vil vide mere om udbytteinvestering, så <a
-			href="https://finansteori.dk/borshandel/udbytte-investering-sadan-kommer-du-igang"
+		Hvis du vil vide mere om udbytteinvestering, så <a href="/udbytteinvestering"
 			>læs hvordan du kommer igang med udbytteinvestering her!</a
 		>
 	</p>
@@ -513,8 +509,7 @@
 	</p>
 
 	<p>
-		Bliv klogere på at <a
-			href="https://finansteori.dk/borshandel/investere-gennem-investeringsinstitutter"
+		Bliv klogere på at <a href="/investeringsforeninger"
 			>investerer gennem investeringsinstitutter her!</a
 		>
 	</p>

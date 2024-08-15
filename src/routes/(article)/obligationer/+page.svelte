@@ -100,7 +100,7 @@
 			>obligationer typisk sælges i stakke fra 50.000 og op</span
 		>. Hvis du ikke vil risikere den kapital, kan du
 		<a
-			href="https://finansteori.dk/borshandel/investeringsforeninger-fonde-spredning"
+			href="/investeringsforeninger"
 			class="rank-math-link">investere i ETF'er eller investeringsforeninger</a
 		>, som fokusere på obligationer.
 	</p>
@@ -213,11 +213,7 @@
 
 	<!-- wp:paragraph -->
 	<p>
-		Herunder tager vi stilling til beskatning som kapitalindkomst. Hvis du vil vide mere om
-		beskatning af aktieindkomst, kan du læse <a
-			href="https://finansteori.dk/borshandel/alt-du-burde-vide-om-aktieinvestering-komplet-introduktion"
-			class="rank-math-link">vores komplette introduktion til aktieinvestering</a
-		>.
+		Herunder tager vi stilling til beskatning som kapitalindkomst.
 	</p>
 	<!-- /wp:paragraph -->
 

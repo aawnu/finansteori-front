@@ -77,7 +77,7 @@
 		Hvis du vil have mere frihed til at investere, kan du altid åbne en normal investeringskonto.
 		Her er en <a
 			class="rank-math-link"
-			href="https://finansteori.dk/borshandel/alt-du-burde-vide-om-aktieinvestering-komplet-introduktion/"
+			href="/aktieinvestering"
 			>komplet introduktion til aktieinvestering</a
 		>.
 	</p>

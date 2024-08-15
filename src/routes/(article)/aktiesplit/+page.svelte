@@ -128,11 +128,9 @@
 
 	<!-- wp:paragraph -->
 	<p>
-		Hvis volumen bliver stor nok, så kan det også invitere Day Traders, som <a
-			href="https://finansteori.dk/borshandel/day-trader-invester-daglige-markedet"
-			class="rank-math-link">handler store mængder aktier for korte tidsperioder</a
-		>. Det kan frembringe endnu større handels volume, og måske gøre aktien mere volatil (have
-		større kursændringer).
+		Hvis volumen bliver stor nok, så kan det også invitere Day Traders, som handler store mængder
+		aktier for korte tidsperioder. Det kan frembringe endnu større handels volume, og måske gøre
+		aktien mere volatil (have større kursændringer).
 	</p>
 	<!-- /wp:paragraph -->
 
@@ -151,10 +149,8 @@
 
 	<!-- wp:paragraph -->
 	<p>
-		<a
-			href="https://finansteori.dk/borshandel/udbytteinvestering-aktier-fonde-etf"
-			class="rank-math-link">Hvis du investere imod udbytter</a
-		>, så skal du være opmærksom på 2 ting.
+		<a href="/udbytteinvestering" class="rank-math-link">Hvis du investere imod udbytter</a>, så
+		skal du være opmærksom på 2 ting.
 	</p>
 	<!-- /wp:paragraph -->
 

@@ -142,7 +142,7 @@
 		Lad os antage at den typiske eurojackpot (eller generelt lotto) gambler køber 10 rækker om ugen,
 		eller måske 20 rækker om måneden, så har vi altså en måneds omkostning på 300-600 kroner om
 		måneden. Hvis vi nu tager gennemsnittet 450 kroner, og <a
-			href="https://finansteori.dk/borshandel/opsparing-ved-investeringsrobotten"
+			href="/investeringsrobotter"
 			class="rank-math-link">investere ved June hver måned</a
 		>. Så ville vi altså investere 450*12 = 5.400 kroner om året, som historisk set kunne stige 7%
 		om året.

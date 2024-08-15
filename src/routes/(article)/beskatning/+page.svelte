@@ -45,7 +45,7 @@
 		<em
 			>Jeg gør lige opmærksom på at det her omhandler kapital indtægt, altså når du får løn fra en
 			arbejdsgiver eller ved at udføre freelance arbejde. Dette inkludere ikke <a
-				href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+				href="/aktieinvestering"
 				class="rank-math-link">aktieskat</a
 			>, renteskat eller skatter i andre kategorier.</em
 		>

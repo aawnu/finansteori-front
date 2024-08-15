@@ -97,7 +97,7 @@
 	<p>
 		Hvis du er interesseret i at eje investeringsbeviser i en ETF, så skal du først oprette en
 		investeringskonto. <a
-			href="https://finansteori.dk/borshandel/aktiesparekonto-17-pct-skat"
+			href="/aktiesparekonto"
 			class="rank-math-link">Du må eje godkendte ETF'er på en aktiesparekonto (ASK)</a
 		>. Det betyder at du kan opnå en fordelagtig lavere lagerbeskatning af dine ETF'er, hvis du må
 		holde den på din ASK.

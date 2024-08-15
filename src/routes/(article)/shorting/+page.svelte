@@ -35,7 +35,7 @@
 	<p>
 		Hvis du ikke er bekendt med almindelig aktieinvestering, så anbefaler vi at du først lærer at
 		handle aktier. <a
-			href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+			href="/aktieinvestering"
 			class="rank-math-link">Lær alt om aktieinvestering her!</a
 		>
 	</p>
@@ -136,7 +136,7 @@
 	<!-- wp:paragraph -->
 	<p>
 		Hvis du ikke føler dig sikker på en shorting position. <a
-			href="https://finansteori.dk/borshandel/bull-og-bear-certifikater"
+			href="/certifikater"
 			class="rank-math-link">Du kan vælge at købe BEAR Certifikater</a
 		>. Her køber du et investerings instrument, som har spejlvendt kurs af aktiekursen. Forskellen
 		er at BEAR certifikatet udløber når din margin rammer 0 kroner, så du kan ikke tabe mere end det

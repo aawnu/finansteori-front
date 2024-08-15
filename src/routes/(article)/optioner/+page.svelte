@@ -24,14 +24,14 @@
 	<!-- wp:paragraph -->
 	<p>
 		Hvis du er ny til investering, anbefales du først <a
-			href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+			href="/aktieinvestering"
 			class="rank-math-link">at lære omkring generel aktieinvestering</a
 		>
 		først. Dertil skal du være opmærksom på at optioner er avancerede investerings-instrumenter, som
 		oftest bruges af banker og investeringsselskaber. For at opnå det fulde potentiale af
 		optionhandel, bør du overveje at
 		<a
-			href="https://finansteori.dk/borshandel/invester-gennem-holdingselskab"
+			href="/holdingselskab"
 			class="rank-math-link">investerer gennem selskab</a
 		>.
 	</p>

@@ -41,7 +41,7 @@
 	<!-- wp:paragraph -->
 	<p>
 		Når der er lavet en risikoanalyse, så ryger du i en investeringspulje. Ligesom <a
-			href="https://finansteori.dk/borshandel/invester-gennem-investeringsforeninger"
+			href="/investeringsforeninger"
 			class="rank-math-link">når du investerer i en investeringsforening</a
 		>. Den her pulje er styret af et program, som analysere og handler på børsmarkedet ud fra dine
 		risikokriterier.&nbsp;
@@ -168,7 +168,7 @@
 	<p>
 		Den primære fordel er at du slipper for at betale kurtage ved handlerne. Har du ikke noget imod
 		kurtagen, da det giver dig friheden til selv at handle aktier? <a
-			href="https://finansteori.dk/borshandel/start-din-aktieinvestering-2020"
+			href="/aktieinvestering"
 			class="rank-math-link">Læs vores introduktion til aktieinvestering her!</a
 		>
 	</p>
