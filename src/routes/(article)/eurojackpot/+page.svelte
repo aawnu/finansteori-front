@@ -1,8 +1,8 @@
 <svelte:head>
-	<title>Candlesticks - Det fulde overblik over en periode</title>
+	<title>Vind +60 millioner i Eurojackpot, er det en investering eller gambling?</title>
 </svelte:head>
 
-<h1>Candlesticks - Det fulde overblik over en periode</h1>
+<h1>Vind +60 millioner i Eurojackpot, er det en investering eller gambling?</h1>
 
 <div class="wp-article">
 	<!-- wp:paragraph -->
