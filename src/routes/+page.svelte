@@ -18,6 +18,8 @@
 	import ChartPieSlice from 'phosphor-svelte/lib/ChartPieSlice';
 	import Bandaids from 'phosphor-svelte/lib/Bandaids';
 	import AirTrafficControl from 'phosphor-svelte/lib/AirTrafficControl';
+	import CalendarDot from 'phosphor-svelte/lib/CalendarDot';
+	import CalendarStar from 'phosphor-svelte/lib/CalendarStar';
 </script>
 
 <svelte:head>
@@ -130,5 +132,13 @@
 	<a href="/eurojackpot" class="block leading-snug text-blue-600">
 		<PokerChip class="align-icon inline-block" weight="bold" />
 		<b>Vind +60 millioner i Eurojackpot</b>, er det en investering eller gambling?
+	</a>
+	<a href="/daytrading" class="block leading-snug text-blue-600">
+		<CalendarDot class="align-icon inline-block" weight="bold" />
+		<b>Day Trader</b> - Invester i det daglige markedet - Samme dags handler
+	</a>
+	<a href="/maanedsbudget" class="block leading-snug text-blue-600">
+		<CalendarStar class="align-icon inline-block" weight="bold" />
+		<b>Månedsbudget</b> - Hvor meget skal du investere?
 	</a>
 </div>
