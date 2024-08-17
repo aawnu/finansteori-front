@@ -5,7 +5,7 @@
 
 <div class="min-h-[calc(100vh-4rem)]">
 	<header>
-		<div class="container py-4">
+		<div class="container flex items-center justify-center md:justify-start py-4">
 			<a href="/">
 				<Finansteori class="h-16" original />
 			</a>

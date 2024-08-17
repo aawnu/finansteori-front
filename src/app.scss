@@ -57,7 +57,7 @@
 		@apply py-12;
 
 		.wp-article {
-			@apply container max-w-screen-md py-4;
+			@apply max-w-screen-md py-4;
 		}
 
 		h1,
@@ -78,31 +78,31 @@
 		}
 
 		h1 {
-			@apply text-center text-5xl leading-snug;
+			@apply text-4xl leading-snug md:text-5xl md:leading-snug;
 		}
 
 		h2 {
-			@apply text-4xl leading-snug;
+			@apply text-3xl leading-snug md:text-4xl md:leading-snug;
 		}
 
 		h3 {
-			@apply text-3xl leading-snug;
+			@apply text-2xl leading-snug md:text-3xl md:leading-snug;
 		}
 
 		h4 {
-			@apply text-2xl leading-snug;
+			@apply text-xl leading-snug md:text-2xl md:leading-snug;
 		}
 
 		h5 {
-			@apply text-xl leading-snug;
+			@apply text-lg leading-snug md:text-xl md:leading-snug;
 		}
 
 		h6 {
-			@apply text-lg leading-snug;
+			@apply leading-snug md:text-lg md:leading-snug;
 		}
 
 		p {
-			@apply my-2 leading-relaxed;
+			@apply my-2 max-w-screen-sm leading-relaxed;
 		}
 
 		ul {
@@ -115,11 +115,11 @@
 
 		ul,
 		ol {
-			@apply space-y-1 pl-6;
+			@apply my-6 space-y-1 pl-6;
 		}
 
 		table {
-			@apply my-4 w-full table-fixed;
+			@apply my-6 w-full table-fixed;
 			tr {
 				td {
 					@apply p-2;
@@ -140,17 +140,17 @@
 		}
 
 		blockquote {
-			@apply border-l-primary-300 my-4 rounded-lg border-l-2 bg-slate-50 p-2 pl-4;
+			@apply my-6 rounded-lg border-l-2 border-l-primary-300 bg-slate-50 p-2 pl-4;
 			p {
 				@apply text-xl italic;
 			}
 			cite {
-				@apply text-primary-300 text-sm;
+				@apply text-sm text-primary-300;
 			}
 		}
 
 		a {
-			@apply hover:text-primary-600 font-bold text-primary;
+			@apply font-bold text-primary hover:text-primary-600;
 		}
 	}
 }
