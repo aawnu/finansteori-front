@@ -1,25 +1,8 @@
 <script lang="ts">
-	import Scales from 'phosphor-svelte/lib/Scales';
-	import NewspaperClipping from 'phosphor-svelte/lib/NewspaperClipping';
-	import Scroll from 'phosphor-svelte/lib/Scroll';
-	import MoneyWavy from 'phosphor-svelte/lib/MoneyWavy';
-	import Buildings from 'phosphor-svelte/lib/Buildings';
-	import Robot from 'phosphor-svelte/lib/Robot';
-	import AlignBottom from 'phosphor-svelte/lib/AlignBottom';
-	import EscalatorDown from 'phosphor-svelte/lib/EscalatorDown';
-	import CallBell from 'phosphor-svelte/lib/CallBell';
-	import Cow from 'phosphor-svelte/lib/Cow';
-	import Fire from 'phosphor-svelte/lib/Fire';
-	import PresentationChart from 'phosphor-svelte/lib/PresentationChart';
-	import PokerChip from 'phosphor-svelte/lib/PokerChip';
-	import Percent from 'phosphor-svelte/lib/Percent';
-	import SplitHorizontal from 'phosphor-svelte/lib/SplitHorizontal';
-	import Baby from 'phosphor-svelte/lib/Baby';
-	import ChartPieSlice from 'phosphor-svelte/lib/ChartPieSlice';
-	import Bandaids from 'phosphor-svelte/lib/Bandaids';
-	import AirTrafficControl from 'phosphor-svelte/lib/AirTrafficControl';
-	import CalendarDot from 'phosphor-svelte/lib/CalendarDot';
-	import CalendarStar from 'phosphor-svelte/lib/CalendarStar';
+	import { routing } from '../cache/routes';
+	import type { PageData } from './$types';
+
+	export let data: PageData;
 </script>
 
 <svelte:head>
@@ -52,93 +35,19 @@
 </div>
 
 <div class="container space-y-4 py-4 text-xl md:text-2xl">
-	<a href="/platform" class="block leading-snug text-blue-600">
-		<Scales class="align-icon inline-block" weight="bold" />
-		<b>Sammenlign:</b>
-		Aktiemægler platforme i danmark
-	</a>
-	<a href="/aktieinvestering" class="block leading-snug text-blue-600">
-		<NewspaperClipping class="align-icon inline-block" weight="bold" />
-		<b>Hvad er Aktieinvestering?</b> Alt om aktier for begyndere, start din portefølje i dag!
-	</a>
-	<a href="/aktiesparekonto" class="block leading-snug text-blue-600">
-		<Scroll class="align-icon inline-block" weight="bold" />
-		<b>Aktiesparekontoen</b> - Kun 17% skat af dine investeringer
-	</a>
-	<a href="/candlesticks" class="block leading-snug text-blue-600">
-		<PresentationChart class="align-icon inline-block" weight="bold" />
-		<b>Candlesticks</b> - Det fulde overblik over en periode
-	</a>
-	<a href="/etf" class="block leading-snug text-blue-600">
-		<AirTrafficControl class="align-icon inline-block" weight="bold" />
-		<b>ETF'er</b> - Investering i lukkede og børsnoterede fonde
-	</a>
-	<a href="/investeringsforeninger" class="block leading-snug text-blue-600">
-		<Buildings class="align-icon inline-block" weight="bold" />
-		<b>Investeringsforeninger</b>, fonde og ETF'er giver stor spredning til få penge
-	</a>
-	<a href="/investeringsrobotter" class="block leading-snug text-blue-600">
-		<Robot class="align-icon inline-block" weight="bold" />
-		<b>Investeringsrobotter</b>, månedsopsparing med automatiske investeringer
-	</a>
-	<a href="/udbytteinvestering" class="block leading-snug text-blue-600">
-		<AlignBottom class="align-icon inline-block" weight="bold" />
-		<b>Udbytteinvestering</b> - Modtag penge for at eje aktier, fonde og ETF'er
-	</a>
-	<a href="/beskatning" class="block leading-snug text-blue-600">
-		<Percent class="align-icon inline-block" weight="bold" />
-		<b>Beskatning</b> - Sådan beregner du skat af kapital indkomst
-	</a>
-	<a href="/fradrag" class="block leading-snug text-blue-600">
-		<Bandaids class="align-icon inline-block" weight="bold" />
-		<b>Skattefradrag</b> - Sådan fungere det fradrag i skatten
-	</a>
-	<a href="/holdingselskab" class="block leading-snug text-blue-600">
-		<MoneyWavy class="align-icon inline-block" weight="bold" />
-		<b>Holdingselskab</b> - 22% selskabsskat - Invester gennem egen virksomhed
-	</a>
-	<a href="/fire" class="block leading-snug text-blue-600">
-		<Fire class="align-icon inline-block" weight="bold" />
-		<b>FIRE:</b> Økonomisk uafhængig som tidligt pensioneret
-	</a>
-	<a href="/borneopsparing" class="block leading-snug text-blue-600">
-		<Baby class="align-icon inline-block" weight="bold" />
-		<b>Børneopsparingen:</b> Sådan får du pengene til at yngle
-	</a>
-	<a href="/fivo-budget" class="block leading-snug text-blue-600">
-		<ChartPieSlice class="align-icon inline-block" weight="bold" />
-		<b>FIVO Budget</b> - Reserver dine penge og undgå livsstils-inflation ved at investere
-	</a>
-	<a href="/obligationer" class="block leading-snug text-blue-600">
-		<MoneyWavy class="align-icon inline-block" weight="bold" />
-		<b>Obligationer</b> - Tjen penge på andres gæld - En sikker investering?
-	</a>
-	<a href="/shorting" class="block leading-snug text-blue-600">
-		<EscalatorDown class="align-icon inline-block" weight="bold" />
-		<b>Aktie Shorting</b> - Tjen penge når markedet falder i værdi
-	</a>
-	<a href="/optioner" class="block leading-snug text-blue-600">
-		<CallBell class="align-icon inline-block" weight="bold" />
-		<b>Call og Put Optioner</b> - Rettighederne til at købe og sælge aktier til forudbestemte priser
-	</a>
-	<a href="/certifikater" class="block leading-snug text-blue-600">
-		<Cow class="align-icon inline-block" weight="bold" />
-		<b>Bull og Bear Certifikater</b> - Tjen penge på aktier uden af eje dem
-	</a>
-	<a href="/aktiesplit" class="block leading-snug text-blue-600">
-		<SplitHorizontal class="align-icon inline-block" weight="bold" />
-		<b>Aktiesplit</b> - Udvandet ejerskab og lavere priser, er det en god ting?
-	</a>
-	<a href="/eurojackpot" class="block leading-snug text-blue-600">
-		<PokerChip class="align-icon inline-block" weight="bold" />
-		<b>Vind +60 millioner i Eurojackpot</b>, er det en investering eller gambling?
-	</a>
-	<a href="/daytrading" class="block leading-snug text-blue-600">
-		<CalendarDot class="align-icon inline-block" weight="bold" />
-		<b>Day Trader</b> - Invester i det daglige markedet - Samme dags handler
-	</a>
-	<a href="/maanedsbudget" class="block leading-snug text-blue-600">
-		<CalendarStar class="align-icon inline-block" weight="bold" />
-		<b>Månedsbudget</b> - Hvor meget skal du investere?
-	</a>
+	{#each data.articles as article}
+		<a
+			href={'/' + article.route}
+			class="block leading-snug text-primary hover:font-bold hover:text-primary-300"
+		>
+			<span class="leading-snug" role="heading" aria-level="1">{article.title}</span>
+			{#if article.date}
+				<span
+					class="ml-1 inline-block rounded-lg bg-slate-100 px-2 py-1 text-xs !font-normal italic leading-tight text-foreground md:text-sm"
+				>
+					{new Date(article.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
+				</span>
+			{/if}
+		</a>
+	{/each}
 </div>

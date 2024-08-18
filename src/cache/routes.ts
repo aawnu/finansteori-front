@@ -1,5 +1,6 @@
 type routingBody = {
 	lookup: string[];
+	direct?: string;
 };
 export type routing = Record<string, routingBody>;
 
@@ -8,7 +9,8 @@ export const routing: routing = {
 		lookup: [
 			'https://finansteori.dk/borshandel/aktieinvestering-nordnet-eller-saxo-bank',
 			'https://finansteori.dk/borshandel/nordnet-vs-saxo-bank'
-		]
+		],
+		direct: 'Aktiemægler platforme i danmark'
 	},
 	aktieinvestering: {
 		lookup: [

@@ -9,9 +9,14 @@
 
 <div class="mb-6">
 	<span class="text-sm font-light italic">
-		Udgivet: {new Date(data.date).toLocaleDateString('da-DK', { dateStyle: 'long' })}
+		{#if data.date}
+			Udgivet: {new Date(data.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
+		{:else}
+			Udgivet: &mdash;&quest;&mdash;
+		{/if}
 	</span>
 </div>
+
 <h1>{data.title}</h1>
 
 <div class="wp-article">
