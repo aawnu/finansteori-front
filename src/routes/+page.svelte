@@ -5,6 +5,8 @@
 </script>
 
 <svelte:head>
+	<link rel="canonical" href="http://finansteori.dk/" />
+
 	<title>Finansteori</title>
 	<meta
 		name="description"

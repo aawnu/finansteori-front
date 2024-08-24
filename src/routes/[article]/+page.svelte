@@ -4,6 +4,8 @@
 </script>
 
 <svelte:head>
+	<link rel="canonical" href="http://finansteori.dk/{data.slug}" />
+
 	<title>{data.title}</title>
 	<meta property="og:site_name" content="Finansteori" />
 	<meta property="og:url" content="http://finansteori.dk/{data.slug}" />

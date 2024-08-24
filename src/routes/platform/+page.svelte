@@ -14,6 +14,8 @@
 </script>
 
 <svelte:head>
+	<link rel="canonical" href="http://finansteori.dk/platform" />
+
 	<title>Aktiemægler platforme i danmark | Finansteori</title>
 	<meta
 		name="description"
