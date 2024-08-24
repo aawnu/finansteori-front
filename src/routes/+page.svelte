@@ -1,5 +1,4 @@
 <script lang="ts">
-	import { routing } from '../cache/routes';
 	import type { PageData } from './$types';
 
 	export let data: PageData;
@@ -11,6 +10,10 @@
 		name="description"
 		content="Tag kontrol over din økonomi, før den tager kontrol over dig."
 	/>
+	<meta property="og:site_name" content="Finansteori" />
+	<meta property="og:url" content="http://finansteori.dk/" />
+	<meta property="og:title" content="Finansteori" />
+	<meta property="og:type" content="website" />
 </svelte:head>
 
 <div class="container flex items-center py-12">

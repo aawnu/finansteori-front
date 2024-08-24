@@ -23,6 +23,7 @@ export const load: PageLoad = ({ params }) => {
 	}
 
 	return {
+		slug: params.article.toLowerCase(),
 		title: routeMatch.title,
 		date: routeMatch.pubDate,
 		body

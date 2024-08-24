@@ -5,6 +5,13 @@
 
 <svelte:head>
 	<title>{data.title}</title>
+	<meta property="og:site_name" content="Finansteori" />
+	<meta property="og:url" content="http://finansteori.dk/{data.slug}" />
+	<meta property="og:title" content={data.title.replaceAll('"', '&quot;')} />
+	<meta property="og:type" content="article" />
+	{#if data.date}
+		<meta property="og:article:published_time" content={new Date(data.date).toISOString()} />
+	{/if}
 </svelte:head>
 
 <div class="mb-6">

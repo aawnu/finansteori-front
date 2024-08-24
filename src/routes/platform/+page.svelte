@@ -19,10 +19,14 @@
 		name="description"
 		content="Hvilken aktiemægler skal man vælge, hvis man gerne vil investere sin formue i aktier?"
 	/>
+	<meta property="og:site_name" content="Finansteori" />
+	<meta property="og:url" content="http://finansteori.dk/platform" />
+	<meta property="og:title" content="Aktiemægler platforme i danmark" />
+	<meta property="og:type" content="article" />
 </svelte:head>
 
 <div class="container mx-auto max-w-screen-md pb-6">
-	<h1 class="font-lora mb-2 text-4xl font-black leading-relaxed">
+	<h1 class="mb-2 font-lora text-4xl font-black leading-relaxed">
 		Aktiemægler platforme i danmark
 	</h1>
 	<p class="my-2 leading-relaxed">
@@ -41,7 +45,7 @@
 		mæglere, da deres primære forretning er børshandel.
 	</p>
 
-	<h2 class="font-lora mb-2 mt-6 text-2xl font-bold leading-relaxed">
+	<h2 class="mb-2 mt-6 font-lora text-2xl font-bold leading-relaxed">
 		Handelsgebyr (Standardpriser)
 	</h2>
 	<p class="my-2 leading-relaxed">
@@ -61,12 +65,12 @@
 		<table class="w-full table-fixed">
 			<tr>
 				<th></th>
-				<th class="font-lora text-center text-2xl">SAXO BANK</th>
-				<th class="font-lora text-center text-2xl">NORDNET</th>
+				<th class="text-center font-lora text-2xl">SAXO BANK</th>
+				<th class="text-center font-lora text-2xl">NORDNET</th>
 			</tr>
 			<!--- NORDIC -->
 			<tr>
-				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">SKANDINAVIEN</th>
+				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">SKANDINAVIEN</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -92,7 +96,7 @@
 			</tr>
 			<!--- USA / Canada -->
 			<tr>
-				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">AMERIKA / CANADA</th>
+				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">AMERIKA / CANADA</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -118,7 +122,7 @@
 			</tr>
 			<!--- EUROPA -->
 			<tr>
-				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">EUROPA</th>
+				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">EUROPA</th>
 				<td></td>
 				<td></td>
 			</tr>
@@ -144,7 +148,7 @@
 			</tr>
 			<!--- ASIA -->
 			<tr>
-				<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">ASIEN</th>
+				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">ASIEN</th>
 				<td></td>
 				<td></td>
 			</tr>
