@@ -1,3 +1,17 @@
+<svelte:head>
+	<link rel="canonical" href="http://finansteori.dk/ansvar" />
+
+	<title>Ansvarsfraskrivelse - Finansteori</title>
+	<meta
+		name="description"
+		content="Alt investering indebære risikoen for at tabe de investerede penge."
+	/>
+	<meta property="og:site_name" content="Finansteori" />
+	<meta property="og:url" content="http://finansteori.dk/ansvar" />
+	<meta property="og:title" content="Ansvarsfraskrivelse" />
+	<meta property="og:type" content="website" />
+</svelte:head>
+
 <div class="container max-w-screen-md space-y-4">
 	<h1 class="text-2xl font-bold leading-none">Ansvarsfraskrivelse</h1>
 	<p class="leading-relaxed">
