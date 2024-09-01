@@ -4,6 +4,7 @@ import type { Config } from 'tailwindcss';
 const config: Config = {
 	darkMode: ['class'],
 	content: ['./src/**/*.{html,js,svelte,ts}'],
+	safelist: ['dark'],
 	theme: {
 		container: {
 			center: true,
@@ -20,8 +21,9 @@ const config: Config = {
 				background: 'hsl(var(--background) / <alpha-value>)',
 				foreground: 'hsl(var(--foreground) / <alpha-value>)',
 				primary: {
-					DEFAULT: 'hsl(236 100% 55% / <alpha-value>)',
-					foreground: 'hsl(236 100% 92% / <alpha-value>)',
+					DEFAULT: 'hsl(var(--primary) / <alpha-value>)',
+					foreground: 'hsl(var(--primary-foreground) / <alpha-value>)',
+					highlight: 'hsl(var(--primary-highlight) / <alpha-value>)',
 					100: 'hsl(236 100% 92% / <alpha-value>)',
 					200: 'hsl(236 100% 80% / <alpha-value>)',
 					300: 'hsl(236 100% 67% / <alpha-value>)',
@@ -54,18 +56,6 @@ const config: Config = {
 				card: {
 					DEFAULT: 'hsl(var(--card) / <alpha-value>)',
 					foreground: 'hsl(var(--card-foreground) / <alpha-value>)'
-				},
-				finansteori: {
-					DEFAULT: 'hsl(236 100% 55% / <alpha-value>)',
-					foreground: 'hsl(236 100% 92% / <alpha-value>)',
-					100: 'hsl(236 100% 92% / <alpha-value>)',
-					200: 'hsl(236 100% 80% / <alpha-value>)',
-					300: 'hsl(236 100% 67% / <alpha-value>)',
-					400: 'hsl(236 100% 55% / <alpha-value>)',
-					500: 'hsl(236 100% 42% / <alpha-value>)',
-					600: 'hsl(236 100% 30% / <alpha-value>)',
-					700: 'hsl(236 100% 17% / <alpha-value>)',
-					800: 'hsl(236 100% 5% / <alpha-value>)'
 				}
 			},
 			borderRadius: {

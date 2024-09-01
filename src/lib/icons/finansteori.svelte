@@ -7,8 +7,8 @@
 	export { className as class };
 
 	if (original) {
-		main = 'fill-finansteori-800';
-		sub = 'fill-finansteori';
+		main = 'fill-foreground';
+		sub = 'fill-primary';
 	}
 </script>
 

@@ -62,7 +62,7 @@
 		kurtage per handel.
 	</p>
 </div>
-<div class="bg-slate-200 px-4 py-8">
+<div class=" px-4 py-8">
 	<div class="container mx-auto max-w-screen-lg">
 		<table class="w-full table-fixed">
 			<tr>

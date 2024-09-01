@@ -40,7 +40,9 @@
 	"dependencies": {
 		"@fontsource-variable/lora": "^5.0.18",
 		"@fontsource-variable/public-sans": "^5.0.19",
+		"bits-ui": "^0.21.13",
 		"clsx": "^2.1.1",
+		"mode-watcher": "^0.4.1",
 		"tailwind-merge": "^2.5.2",
 		"tailwind-variants": "^0.2.1"
 	}
