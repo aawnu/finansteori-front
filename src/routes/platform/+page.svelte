@@ -1,3 +1,4 @@
+<!-- @migration-task Error while migrating Svelte code: `<tr>` is invalid inside `<table>` -->
 <script lang="ts">
 	const FormatExchange = (pct: number, min: number, symbol: string): string => {
 		const pctS = pct
@@ -28,7 +29,7 @@
 </svelte:head>
 
 <div class="container mx-auto max-w-screen-md pb-6">
-	<h1 class="mb-2 font-lora text-4xl font-black leading-relaxed">
+	<h1 class="font-lora mb-2 text-4xl font-black leading-relaxed">
 		Aktiemægler platforme i danmark
 	</h1>
 	<p class="my-2 leading-relaxed">
@@ -47,7 +48,7 @@
 		mæglere, da deres primære forretning er børshandel.
 	</p>
 
-	<h2 class="mb-2 mt-6 font-lora text-2xl font-bold leading-relaxed">
+	<h2 class="font-lora mb-2 mt-6 text-2xl font-bold leading-relaxed">
 		Handelsgebyr (Standardpriser)
 	</h2>
 	<p class="my-2 leading-relaxed">
@@ -65,120 +66,124 @@
 <div class=" px-4 py-8">
 	<div class="container mx-auto max-w-screen-lg">
 		<table class="w-full table-fixed">
-			<tr>
-				<th></th>
-				<th class="text-center font-lora text-2xl">SAXO BANK</th>
-				<th class="text-center font-lora text-2xl">NORDNET</th>
-			</tr>
+			<thead>
+				<tr>
+					<th></th>
+					<th class="font-lora text-center text-2xl">SAXO BANK</th>
+					<th class="font-lora text-center text-2xl">NORDNET</th>
+				</tr>
+			</thead>
 			<!--- NORDIC -->
-			<tr>
-				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">SKANDINAVIEN</th>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">NASDAQ OMX Copenhagen</th>
-				<td class="text-center">{@html FormatExchange(0.08, 10, 'DKK')}</td>
-				<td class="text-center">{@html FormatExchange(0.1, 29, 'DKK')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">NASDAQ OMX Helsinki</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'EUR')}</td>
-				<td class="text-center">{@html FormatExchange(0.1, 10, 'EUR')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">NASDAQ OMX Stockholm</th>
-				<td class="text-center">{@html FormatExchange(0.08, 10, 'SEK')}</td>
-				<td class="text-center">{@html FormatExchange(0.1, 59, 'SEK')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Oslo Børs/Oslo Stock Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 10, 'NOK')}</td>
-				<td class="text-center">{@html FormatExchange(0.1, 59, 'NOK')}</td>
-			</tr>
-			<!--- USA / Canada -->
-			<tr>
-				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">AMERIKA / CANADA</th>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">NASDAQ</th>
-				<td class="text-center">{@html FormatExchange(0.08, 1, 'USD')}</td>
-				<td class="text-center">{@html FormatExchange(0.15, 13, 'USD')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">New York Stock Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 1, 'USD')}</td>
-				<td class="text-center">{@html FormatExchange(0.15, 13, 'USD')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Toronto Stock Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 5, 'CAD')}</td>
-				<td class="text-center">{@html FormatExchange(0.15, 19, 'CAD')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">TSX Venture Exchange</th>
-				<td class="text-center">0,015 &gt; 5 CAD &le; 25 CAD</td>
-				<td class="text-center">{@html FormatExchange(0.15, 19, 'CAD')}</td>
-			</tr>
-			<!--- EUROPA -->
-			<tr>
-				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">EUROPA</th>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Deutsche Börse (XETRA)</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'EUR')}</td>
-				<td class="text-center">{@html FormatExchange(0.15, 12, 'EUR')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">London Stock Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'GBP')}</td>
-				<td class="text-center">{@html FormatExchange(0.15, 12, 'GBP')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Euronext</th>
-				<td class="text-center">{@html FormatExchange(0.08, 2, 'EUR')}</td>
-				<td class="text-center">{@html FormatExchange(0.3, 25, 'GBP')}</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">SIX Swiss Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'CHF')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
-			<!--- ASIA -->
-			<tr>
-				<th class="pb-2 pt-4 text-left font-lora text-lg font-bold">ASIEN</th>
-				<td></td>
-				<td></td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Australian Securities Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'AUD')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Hong Kong Exchanges</th>
-				<td class="text-center">{@html FormatExchange(0.08, 15, 'HKD')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Shanghai-Hong Kong Stock Connect</th>
-				<td class="text-center">{@html FormatExchange(0.08, 15, 'CNH')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Singapore Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 3, 'SGD')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
-			<tr>
-				<th class="text-left font-normal">Tokyo Stock Exchange</th>
-				<td class="text-center">{@html FormatExchange(0.08, 800, 'JPY')}</td>
-				<td class="text-center">&mdash;</td>
-			</tr>
+			<tbody>
+				<tr>
+					<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">SKANDINAVIEN</th>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">NASDAQ OMX Copenhagen</th>
+					<td class="text-center">{@html FormatExchange(0.08, 10, 'DKK')}</td>
+					<td class="text-center">{@html FormatExchange(0.1, 29, 'DKK')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">NASDAQ OMX Helsinki</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'EUR')}</td>
+					<td class="text-center">{@html FormatExchange(0.1, 10, 'EUR')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">NASDAQ OMX Stockholm</th>
+					<td class="text-center">{@html FormatExchange(0.08, 10, 'SEK')}</td>
+					<td class="text-center">{@html FormatExchange(0.1, 59, 'SEK')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Oslo Børs/Oslo Stock Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 10, 'NOK')}</td>
+					<td class="text-center">{@html FormatExchange(0.1, 59, 'NOK')}</td>
+				</tr>
+				<!--- USA / Canada -->
+				<tr>
+					<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">AMERIKA / CANADA</th>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">NASDAQ</th>
+					<td class="text-center">{@html FormatExchange(0.08, 1, 'USD')}</td>
+					<td class="text-center">{@html FormatExchange(0.15, 13, 'USD')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">New York Stock Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 1, 'USD')}</td>
+					<td class="text-center">{@html FormatExchange(0.15, 13, 'USD')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Toronto Stock Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 5, 'CAD')}</td>
+					<td class="text-center">{@html FormatExchange(0.15, 19, 'CAD')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">TSX Venture Exchange</th>
+					<td class="text-center">0,015 &gt; 5 CAD &le; 25 CAD</td>
+					<td class="text-center">{@html FormatExchange(0.15, 19, 'CAD')}</td>
+				</tr>
+				<!--- EUROPA -->
+				<tr>
+					<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">EUROPA</th>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Deutsche Börse (XETRA)</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'EUR')}</td>
+					<td class="text-center">{@html FormatExchange(0.15, 12, 'EUR')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">London Stock Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'GBP')}</td>
+					<td class="text-center">{@html FormatExchange(0.15, 12, 'GBP')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Euronext</th>
+					<td class="text-center">{@html FormatExchange(0.08, 2, 'EUR')}</td>
+					<td class="text-center">{@html FormatExchange(0.3, 25, 'GBP')}</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">SIX Swiss Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'CHF')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+				<!--- ASIA -->
+				<tr>
+					<th class="font-lora pb-2 pt-4 text-left text-lg font-bold">ASIEN</th>
+					<td></td>
+					<td></td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Australian Securities Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'AUD')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Hong Kong Exchanges</th>
+					<td class="text-center">{@html FormatExchange(0.08, 15, 'HKD')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Shanghai-Hong Kong Stock Connect</th>
+					<td class="text-center">{@html FormatExchange(0.08, 15, 'CNH')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Singapore Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 3, 'SGD')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+				<tr>
+					<th class="text-left font-normal">Tokyo Stock Exchange</th>
+					<td class="text-center">{@html FormatExchange(0.08, 800, 'JPY')}</td>
+					<td class="text-center">&mdash;</td>
+				</tr>
+			</tbody>
 		</table>
 	</div>
 </div>

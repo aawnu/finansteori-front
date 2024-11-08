@@ -1,4 +1,4 @@
-<script>
+<script lang="ts">
 	import Finansteori from '$lib/icons/finansteori.svelte';
 	import InstagramLogo from 'phosphor-svelte/lib/InstagramLogo';
 	import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo';
@@ -6,6 +6,11 @@
 	import Button from '$lib/components/ui/button/button.svelte';
 	import { ModeWatcher } from 'mode-watcher';
 	import '../app.scss';
+	interface Props {
+		children?: import('svelte').Snippet;
+	}
+
+	let { children }: Props = $props();
 </script>
 
 <ModeWatcher defaultMode="system" />
@@ -30,7 +35,7 @@
 		</div>
 	</header>
 
-	<slot />
+	{@render children?.()}
 </div>
 
 <footer>
