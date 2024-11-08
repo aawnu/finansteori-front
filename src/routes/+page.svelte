@@ -2,7 +2,11 @@
 	import Badge from '$lib/components/ui/badge/badge.svelte';
 	import type { PageData } from './$types';
 
-	export let data: PageData;
+	interface Props {
+		data: PageData;
+	}
+
+	let { data }: Props = $props();
 </script>
 
 <svelte:head>
@@ -37,10 +41,7 @@
 
 <div class="container space-y-4 py-4 text-xl md:text-2xl">
 	{#each data.articles as article}
-		<a
-			href={'/' + article.route}
-			class="hover:text-primary-highlight block text-primary hover:font-bold"
-		>
+		<a href={'/' + article.route} class="block text-primary hover:text-primary-highlight">
 			<span role="heading" aria-level="1">{article.title}</span>
 			{#if article.date}
 				<Badge variant="secondary">

@@ -1,10 +1,14 @@
 <script lang="ts">
-	let className: undefined | string = undefined;
-	let main: undefined | string = undefined;
-	let sub: undefined | string = undefined;
+	let main: undefined | string = $state(undefined);
+	let sub: undefined | string = $state(undefined);
 
-	export let original: boolean = false;
-	export { className as class };
+	interface Props {
+		class?: undefined | string;
+		original?: boolean;
+	}
+
+	let { class: className = undefined, original = false }: Props = $props();
+	
 
 	if (original) {
 		main = 'fill-foreground';
