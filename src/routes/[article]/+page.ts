@@ -26,6 +26,7 @@ export const load: PageLoad = ({ params }) => {
 		slug: params.article.toLowerCase(),
 		title: routeMatch.title,
 		date: routeMatch.pubDate,
+		category: Array.isArray(routeMatch.category) ? routeMatch.category.shift()?.__cdata : routeMatch.category?.__cdata,
 		body
 	};
 };

@@ -1,6 +1,7 @@
 type routingBody = {
 	lookup: string[];
 	direct?: string;
+	category?: string;
 };
 export type routing = Record<string, routingBody>;
 
@@ -10,7 +11,8 @@ export const routing: routing = {
 			'https://finansteori.dk/borshandel/aktieinvestering-nordnet-eller-saxo-bank',
 			'https://finansteori.dk/borshandel/nordnet-vs-saxo-bank'
 		],
-		direct: 'Aktiemægler platforme i danmark'
+		direct: 'Aktiemægler platforme i danmark',
+		category: 'borshandel'
 	},
 	aktieinvestering: {
 		lookup: [
@@ -62,6 +64,12 @@ export const routing: routing = {
 	fradrag: {
 		lookup: ['https://finansteori.dk/?p=4']
 	},
+	nettoformue: {
+		lookup: ['https://finansteori.dk/?p=11']
+	},
+	'sporgsmål-for-laan': {
+		lookup: ['https://finansteori.dk/?p=10']
+	},
 	holdingselskab: {
 		lookup: [
 			'https://finansteori.dk/borshandel/bors-indsigt/invester-gennem-holdingselskab',
@@ -111,6 +119,11 @@ export const routing: routing = {
 		lookup: [
 			'https://finansteori.dk/borshandel/bors-starter/manedsbudget-hvor-meget-investering',
 			'https://finansteori.dk/borshandel/manedsbudget-hvor-meget-investering'
+		]
+	},
+	'freelance-arbejde': {
+		lookup: [
+			'https://finansteori.dk/selvstaendig/kom-igang-med-freelance'
 		]
 	}
 };
