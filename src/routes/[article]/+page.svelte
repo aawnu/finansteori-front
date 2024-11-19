@@ -18,7 +18,7 @@
 				}
 			],
 			headline: data.title,
-			datePublished: new Date(data.date).toISOString(),
+			datePublished: data.date ? new Date(data.date).toISOString() : '',
 			publisher: {
 				'@type': 'Organization',
 				name: 'Finansteori'
