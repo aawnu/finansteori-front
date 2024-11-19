@@ -2,9 +2,7 @@
 	import Finansteori from '$lib/icons/finansteori.svelte';
 	import InstagramLogo from 'phosphor-svelte/lib/InstagramLogo';
 	import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo';
-	import Lightswitch from '$lib/components/lightswitch.svelte';
 	import Button from '$lib/components/ui/button/button.svelte';
-	import { ModeWatcher } from 'mode-watcher';
 	import '../app.scss';
 	interface Props {
 		children?: import('svelte').Snippet;
@@ -13,18 +11,14 @@
 	let { children }: Props = $props();
 </script>
 
-<ModeWatcher defaultMode="system" />
-
 <div class="min-h-[calc(100vh-4rem)]">
 	<header>
-		<div class="container flex items-center justify-between py-8">
+		<div class="container flex items-center justify-between py-4 md:py-8">
 			<a href="/">
 				<Finansteori class="h-16" original />
 			</a>
 
 			<nav class="flex items-center justify-end gap-x-2">
-				<Lightswitch />
-				<div class="mx-2 w-0 border-r-2">&nbsp;</div>
 				<Button href="https://instagram.com/finansteori" variant="outline" size="icon">
 					<InstagramLogo class="text-xl" />
 				</Button>
