@@ -89,7 +89,7 @@
 	{@html `<script type="application/ld+json">${schema}</script>`}
 </svelte:head>
 
-<div class="container flex flex-col items-center justify-center py-8 md:py-12 lg:py-24">
+<div class="container flex flex-col items-center justify-center py-12 md:py-16 lg:py-24">
 	<h1 class="text-center font-lora text-4xl font-black !leading-tight md:text-5xl lg:text-7xl">
 		<span class="inline sm:block">Kontroller <u>din</u> økonomi,</span>
 		<span class="inline sm:block">før <i>den</i> kontrollere dig.</span>
@@ -102,7 +102,7 @@
 </div>
 
 {#if data.articles.stock.length > 0}
-	<div class="container px-0 py-12">
+	<div class="container px-0 py-8 md:py-12">
 		<div
 			class="grid auto-rows-fr grid-cols-[repeat(auto-fill,_minmax(min-content,250px))] justify-center gap-4"
 		>
@@ -130,7 +130,7 @@
 {/if}
 
 <!-- {#if data.articles.economy.length > 0}
-	<div class="container px-0 py-12">
+	<div class="container px-0 py-8 md:py-12">
 		<div
 			class="grid auto-rows-fr grid-cols-[repeat(auto-fill,_minmax(min-content,250px))] justify-center gap-4"
 		>
@@ -158,7 +158,7 @@
 {/if}
 
 {#if data.articles.owner.length > 0}
-	<div class="container px-0 py-12">
+	<div class="container px-0 py-8 md:py-12">
 		<div
 			class="grid auto-rows-fr grid-cols-[repeat(auto-fill,_minmax(min-content,250px))] justify-center gap-4"
 		>
@@ -186,7 +186,7 @@
 {/if} -->
 
 {#if data.articles.other}
-	<div class="container px-0 py-12">
+	<div class="container px-0 py-8 md:py-12">
 		<div
 			class="grid auto-rows-fr grid-cols-[repeat(auto-fill,_minmax(min-content,250px))] justify-center gap-4"
 		>
