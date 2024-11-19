@@ -90,6 +90,11 @@ interface Image {
 	height: string;
 }
 
+type _ItemCategory = {
+	_nicename: string;
+	__cdata: string;
+}
+
 interface Item {
 	title: string;
 	link: string;
@@ -112,7 +117,7 @@ interface Item {
 	post_type: PostType;
 	post_password: PostPassword;
 	is_sticky: IsSticky;
-	category: any;
+	category: _ItemCategory | _ItemCategory[];
 	postmeta: Postmeum[];
 }
 

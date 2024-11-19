@@ -1,3 +1,27 @@
+<!-- @migration-task Error while migrating Svelte code: `<tr>` is invalid inside `<table>` -->
+<script lang="ts">
+	const schema: string = JSON.stringify([
+		{
+			'@context': 'https://schema.org/',
+			'@type': 'BreadcrumbList',
+			itemListElement: [
+				{
+					'@type': 'ListItem',
+					position: '1',
+					name: 'Finansteori',
+					item: 'http://finansteori.dk/'
+				},
+				{
+					'@type': 'ListItem',
+					position: '2',
+					name: 'Ansvarsfraskrivelse',
+					item: `http://finansteori.dk/ansvar`
+				}
+			]
+		}
+	]);
+</script>
+
 <svelte:head>
 	<link rel="canonical" href="http://finansteori.dk/ansvar" />
 
@@ -10,6 +34,8 @@
 	<meta property="og:url" content="http://finansteori.dk/ansvar" />
 	<meta property="og:title" content="Ansvarsfraskrivelse" />
 	<meta property="og:type" content="website" />
+
+	{@html `<script type="application/ld+json">${schema}</script>`}
 </svelte:head>
 
 <div class="container max-w-screen-md space-y-4">

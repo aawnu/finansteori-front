@@ -1,5 +1,5 @@
 <script lang="ts">
-	import Finansteori from '$lib/icons/finansteori.svelte';
+	import Finansteori from '$lib/components/logo/finansteori.svelte';
 	import InstagramLogo from 'phosphor-svelte/lib/InstagramLogo';
 	import LinkedinLogo from 'phosphor-svelte/lib/LinkedinLogo';
 	import Button from '$lib/components/ui/button/button.svelte';
