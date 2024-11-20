@@ -117,7 +117,7 @@
 				>
 					{#if article.date}
 						<span
-							class="mb-2 block border-b border-b-transparent text-sm font-medium text-primary group-hover:border-b-white group-hover:font-black group-hover:text-background"
+							class="mb-2 block border-b-transparent text-sm font-medium text-muted-foreground group-hover:text-muted/50"
 						>
 							{new Date(article.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
 						</span>
@@ -145,7 +145,7 @@
 				>
 					{#if article.date}
 						<span
-							class="mb-2 block border-b border-b-transparent text-sm font-medium text-primary group-hover:border-b-white group-hover:font-black group-hover:text-background"
+							class="mb-2 block border-b-transparent text-sm font-medium text-muted-foreground group-hover:text-muted/50"
 						>
 							{new Date(article.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
 						</span>
@@ -173,7 +173,7 @@
 				>
 					{#if article.date}
 						<span
-							class="mb-2 block border-b border-b-transparent text-sm font-medium text-primary group-hover:border-b-white group-hover:font-black group-hover:text-background"
+							class="mb-2 block border-b-transparent text-sm font-medium text-muted-foreground group-hover:text-muted/50"
 						>
 							{new Date(article.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
 						</span>
@@ -201,7 +201,7 @@
 				>
 					{#if article.date}
 						<span
-							class="mb-2 block border-b border-b-transparent text-sm font-medium text-primary group-hover:border-b-white group-hover:font-black group-hover:text-background"
+							class="mb-2 block border-b-transparent text-sm font-medium text-muted-foreground group-hover:text-muted/50"
 						>
 							{new Date(article.date).toLocaleDateString('da-DK', { dateStyle: 'medium' })}
 						</span>
