@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: `<tr>` is invalid inside `<table>` -->
 <script lang="ts">
 	const FormatExchange = (pct: number, min: number, symbol: string): string => {
 		const pctS = pct

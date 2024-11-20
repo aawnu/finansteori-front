@@ -1,4 +1,3 @@
-<!-- @migration-task Error while migrating Svelte code: `<tr>` is invalid inside `<table>` -->
 <script lang="ts">
 	const schema: string = JSON.stringify([
 		{
